@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#FFFBFE</color>
+    <color name="colorBackgroundDark">#10131C</color>
+    <color name="colorError">#BA1A1A</color>
+    <color name="colorErrorContainer">#FFDAD6</color>
+    <color name="colorOnBackground">#1C1B1F</color>
+    <color name="colorOnBackgroundDark">#E6E1E5</color>
+    <color name="colorOnError">#FFFFFF</color>
+    <color name="colorOnErrorContainer">#410002</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnPrimaryContainer">#21005D</color>
+    <color name="colorOnPrimaryContainerDark">#EADDFF</color>
+    <color name="colorOnPrimaryDark">#381E72</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+    <color name="colorOnSecondaryContainer">#1D192B</color>
+    <color name="colorOnSurface">#1C1B1F</color>
+    <color name="colorOnSurfaceDark">#E6E1E5</color>
+    <color name="colorOnSurfaceVariant">#49454F</color>
+    <color name="colorOnTertiary">#FFFFFF</color>
+    <color name="colorOnTertiaryContainer">#31111D</color>
+    <color name="colorOutline">#79747E</color>
+    <color name="colorOutlineVariant">#CAC4D0</color>
+    <color name="colorPrimary">#6750A4</color>
+    <color name="colorPrimaryContainer">#EADDFF</color>
+    <color name="colorPrimaryContainerDark">#4F378B</color>
+    <color name="colorPrimaryDark">#D0BCFF</color>
+    <color name="colorSecondary">#625B71</color>
+    <color name="colorSecondaryContainer">#E8DEF8</color>
+    <color name="colorSurface">#FFFBFE</color>
+    <color name="colorSurfaceDark">#10131C</color>
+    <color name="colorSurfaceVariant">#E7E0EC</color>
+    <color name="colorTertiary">#7D5260</color>
+    <color name="colorTertiaryContainer">#FFD8E4</color>
+    <color name="ic_launcher_background">#F6F6F6</color>
+    <color name="loading_background">#F5F5F5</color>
+    <color name="loading_text_color">#6750A4</color>
+    <color name="progress_track">#E0E0E0</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">WebView</string>
+    <string name="back">Back</string>
+    <string name="error_loading">Error loading page</string>
+    <string name="forward">Forward</string>
+    <string name="home">Home</string>
+    <string name="loading_text">Loading...</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="refresh">Refresh</string>
+    <style name="Base.Theme.WebView" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainer</item>
+        
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainer</item>
+        
+        <item name="colorError">@color/colorError</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorErrorContainer">@color/colorErrorContainer</item>
+        <item name="colorOnErrorContainer">@color/colorOnErrorContainer</item>
+        
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="colorOutline">@color/colorOutline</item>
+        <item name="colorOutlineVariant">@color/colorOutlineVariant</item>
+        
+        
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        
+        <item name="android:navigationBarColor">@color/colorSurface</item>
+        
+        
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    <style name="Theme.WebView" parent="Base.Theme.WebView"/>
+    <style name="Theme.WebView.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
